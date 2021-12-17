@@ -1,0 +1,58 @@
+<html>
+  <head>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type='text/javascript' src="index.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js"
+      type="text/javascript"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div id="main">
+      <div id="container">
+        <div id="movie">
+          <input type="text" class="search" id="search-input" />
+        </div>
+        <div id="short">
+          <button class="search button" onclick="onFetch()">Search</button>
+        </div>
+        <div>
+          <select id="pagination" onchange="onFetch()">
+            <option id="1">Page 1</option>
+          </select>
+        </div>
+      </div>
+      <div id="btn">
+        <table>
+
+          <thead>
+
+            <tr>
+
+              <th class="name">COMPANY</th>
+
+              <th class="title">TITLE</th>
+
+              <th class="url">LINK</th>
+
+              <th class="date">PUBLISH AT</th>
+
+            </tr>
+
+          </thead>
+
+          <tbody id="art-tb-bd">
+
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
+43,7 Bot

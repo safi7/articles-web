@@ -1,0 +1,107 @@
+div#main {
+  margin-left: 50px;
+  min-width: 800px;
+  margin-top: 40px;
+
+}
+
+div#container {
+  display: flex;
+  grid-template-columns: repeat(1, max-content) 200px;
+  grid-gap: 10px;
+  width: 800px;
+  margin: 5px 0px;
+  margin-top: 20px;
+}
+
+button {
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  background-color: #afd8e6;
+  ;
+  border-radius: 5px;
+  outline: 0px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 5px 7px;
+  margin-top: 2px;
+}
+
+
+input {
+  padding: 8px;
+  margin: 2px;
+  width: 300px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #afd8e6;
+}
+
+select {
+  width: 100px;
+  padding: 7px;
+  margin-top: 2px;
+  margin-left: 30px;
+  border: 2px solid #afd8e6;
+  ;
+  border-radius: 5px;
+}
+
+select:focus {
+  border: 2px solid #afd8e6;
+  ;
+  outline: none;
+}
+
+select:hover {
+  border: 2px solid #afd8e6;
+  ;
+  outline: none;
+}
+
+select:after {
+  border: 2px solid #afd8e6;
+  ;
+  outline: none;
+}
+
+
+table {
+  min-width: 500px;
+  max-width: 950px;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead tr th {
+  background-color: #add8e6;
+  min-width: 100px;
+  border: 1px solid #afd8e6;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 7px;
+}
+
+tr td {
+  text-align: left;
+  padding: 5px;
+  vertical-align: top;
+  border: 1px solid #afd8e6;
+}
+
+
+tr th.name {
+  min-width: 180px;
+}
+
+tr th.date {
+  width: 100px;
+}
+
+tr th.title {
+  min-width: 500px;
+}
+
+tr th.url {
+  width: 6px;
+}
